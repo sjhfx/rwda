@@ -1,0 +1,17 @@
+Package: rwda
+Title: An R interface to sina weibo data analysis
+Version: 0.2
+Authors@R: person("data2analysis", email = "data2analysis@sina.com", role = c("aut", "cre"))
+Description: An R interface to sina weibo data analysis.
+Depends:
+    R (>= 3.3.1),
+    RCurl,
+    plyr,
+    rjson,
+    jiebaR,
+    wordcloud2,
+    vioplot
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
