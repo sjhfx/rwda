@@ -4,7 +4,7 @@
 \alias{verify_vioplot}
 \title{The sina weibo dot chart}
 \usage{
-verify_vioplot(df_comments, maxrow = 100, title_text = "Verify VS Rank")
+verify_vioplot(df_comments, title_text = "Verify VS Rank")
 }
 \arguments{
 \item{df_comments}{the dataframe of weibo comments}
@@ -15,7 +15,7 @@ verify_vioplot(df_comments, maxrow = 100, title_text = "Verify VS Rank")
 The sina weibo dot chart
 }
 \examples{
-df_comments = get_comments(access_token, weiboid, maxpage = 10)
+df_comments = get_comments(access_token, weiboid)
 verify_vioplot(df_comments)
 }
 

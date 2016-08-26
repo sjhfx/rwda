@@ -4,7 +4,7 @@
 \alias{gender_vioplot}
 \title{The sina weibo dot chart}
 \usage{
-gender_vioplot(df_comments, maxrow = 100, title_text = "Gender VS Rank")
+gender_vioplot(df_comments, title_text = "Gender VS Rank")
 }
 \arguments{
 \item{df_comments}{the dataframe of weibo comments}
@@ -15,7 +15,7 @@ gender_vioplot(df_comments, maxrow = 100, title_text = "Gender VS Rank")
 The sina weibo dot chart
 }
 \examples{
-df_comments = get_comments(access_token, weiboid, maxpage = 10)
+df_comments = get_comments(access_token, weiboid)
 gender_vioplot(df_comments)
 }
 

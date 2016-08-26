@@ -4,7 +4,7 @@
 \alias{province_dotchart}
 \title{The sina weibo dot chart}
 \usage{
-province_dotchart(df_comments, stopprovince = c(""), maxrow = 100,
+province_dotchart(df_comments, stopprovince = c(""),
   title_text = "Users province distribution")
 }
 \arguments{
@@ -16,7 +16,7 @@ province_dotchart(df_comments, stopprovince = c(""), maxrow = 100,
 The sina weibo dot chart
 }
 \examples{
-df_comments = get_comments(access_token, weiboid, maxpage = 10)
+df_comments = get_comments(access_token, weiboid)
 province_dotchart(df_comments)
 }
 

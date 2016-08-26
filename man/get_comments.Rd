@@ -4,7 +4,7 @@
 \alias{get_comments}
 \title{Get comments of weibo}
 \usage{
-get_comments(access_token, weiboid, maxpage = 5)
+get_comments(access_token, weiboid, maxpage = 10)
 }
 \arguments{
 \item{access_token}{get from http://open.weibo.com/tools/console}

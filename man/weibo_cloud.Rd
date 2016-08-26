@@ -15,7 +15,7 @@ weibo_cloud(df_comments, stopwords = c(""), maxrow = 100)
 This function generates wordcloud of weibo comments.
 }
 \examples{
-df_comments = get_comments(access_token, weiboid, maxpage = 10)
+df_comments = get_comments(access_token, weiboid)
 weibo_cloud(df_comments)
 }
 
