@@ -14,5 +14,5 @@ library(rwda)
 df_comments = get_comments(access_token, weiboid)
 weiboda(df_comments)
 ```
-## 关注微信（isjhfx）
+## 关注微信（linjiwx）
 ![image](https://github.com/sjhfx/rwda/raw/master/images/isjhfx.jpg)
